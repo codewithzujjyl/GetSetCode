@@ -17,12 +17,14 @@
   "workbench.iconTheme": "material-icon-theme",
   "json.validate.enable": false,
 "diffEditor.ignoreTrimWhitespace": true,
-"workbench.colorTheme": "Sublime Material Theme - Dark",
+"workbench.colorTheme": "Monokai Dimmed",
 "workbench.colorCustomizations": {
-  "editor.background": "#1C1C1C", // Dark background color
-  "editor.foreground": "#ffffffc9", // General text color
-  "editor.selectionBackground": "#264f78c7", // Background color for selected text
-  "editor.lineHighlightBackground": "#2b2b2b", // Background color for the current line
+  "editor.background": "#2b2b2b",
+  "editor.foreground": "#cccccc",
+  "editor.selectionBackground": "#444444",
+  "editor.selectionForeground": "#ffffff",
+  "editor.lineHighlightBackground": "#333333",
+  "editor.lineHighlightForeground": "#aaaaaa",
   "editorCursor.foreground": "#aeafad", // Cursor color
   "editorWhitespace.foreground": "#3b3b3b", // Color for whitespace characters
   "editorIndentGuide.background": "#404040", // Indentation guide color
@@ -32,19 +34,20 @@
   "editor.findMatchHighlightBackground": "#314659", // Background color for highlighted find matches
   "editor.wordHighlightBackground": "#575757", // Background color for word highlights
   "editor.wordHighlightStrongBackground": "#4f4f4f", // Background color for strong word highlights
-  "editorError.foreground": "#e45454d7", // Error color
+  "editorError.foreground": "#6b7fefb8", // Error color
   "editorWarning.foreground": "#e0a442", // Warning color
   "editorInfo.foreground": "#75bfffbe", // Info color
   "editorHint.foreground": "#eeeeeec6" // Hint color
 },
 "editor.tokenColorCustomizations": {
-  "comments": "#ff8c00bb", // Comment color
-  "functions": "#dcdcaad4", // Function color
-  "keywords": "#c586c095", // Keyword color (purple)
-  "numbers": "#b5cea8ba", // Number color
+  "comments": "#ff8c00d3", // Comment color
+  "functions": "#87cfebcb", // Function color
+  "keywords": "#c586c0db", // Keyword color (purple)
+  "numbers": "#b5cea8b0", // Number color
   "strings": "#CE9178", // String color
-  "types": "#4ec9b0a5", // Type color
-  "variables": "#87cfebc1" // Variable color
+  "types": "#4ec9b0ac", // Type color
+  "variables": "#74c9eae9", // Variable color
+   "punctuation": "#666666"  // commas color
 }
 }
 
