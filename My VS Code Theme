@@ -40,12 +40,12 @@
 },
 "editor.tokenColorCustomizations": {
   "comments": "#ff8c00d3", // Comment color
-  "functions": "#87cfebcb", // Function color
+  "functions": "#47a0c3e7", // Function color
   "keywords": "#c586c0db", // Keyword color (purple)
   "numbers": "#d75dddb0", // Number color
   "strings": "#a5d3f3ca", // String color
   "types": "#4ec9b0ac", // Type color
-  "variables": "#f1fb63a1", // Variable color
+  "variables": "#4fdb30d6", // Variable color
 },
 "workbench.colorTheme": "Visual Studio Dark"
 }
