@@ -43,7 +43,7 @@
 },
 "editor.tokenColorCustomizations": {
 "comments": "#31ec92b5", // Comment color
-"functions": "#ec4f4fee", // Function color
+"functions": "#c480f9ca", // Function color
 "keywords": "#edf908bd", // Keyword color (purple)
 "numbers": "#00dbf8e6", // Number color
 "strings": "#ffffffc7", // String color
@@ -52,4 +52,6 @@
 },
 "workbench.colorTheme": "Default Dark+",
 "editor.stickyScroll.enabled": false,
+"editor.minimap.renderCharacters": false,
+"editor.minimap.enabled": false,
 }
