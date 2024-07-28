@@ -10,7 +10,6 @@
   "window.commandCenter": false,
   "explorer.confirmDelete": false,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.minimap.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "json.schemaDownload.enable": true,
@@ -18,8 +17,8 @@
   "json.validate.enable": false,
 "diffEditor.ignoreTrimWhitespace": true,
 "workbench.colorCustomizations": {
-  "editor.background": "#24529808",
-  "editor.foreground": "#cccccc",
+  "editor.background": "#6569601d",
+  "editor.foreground": "#35eb14",
   "editor.selectionForeground": "#ffffff",
   "editor.selectionBackground": "#4e4c7f", // Background color for selected text
   "editor.lineHighlightBackground": "#2b2b2bb9", // Background color for the current line
@@ -51,7 +50,12 @@
   "types": "#4687f9dc", // Type color
   "variables": "#e9e20ad3", // Variable color
 },
-"workbench.colorTheme": "Visual Studio Dark"
+"workbench.colorTheme": "Default Dark+",
+"workbench.settings.applyToAllProfiles": [
+  "editor.stickyScroll.scrollWithEditor"
+],
+"editor.stickyScroll.enabled": false,
+
 }
 
 
