@@ -51,12 +51,9 @@
   "variables": "#e9e20ad3", // Variable color
 },
 "workbench.colorTheme": "Default Dark+",
-"workbench.settings.applyToAllProfiles": [
-  "editor.stickyScroll.scrollWithEditor"
-],
 "editor.stickyScroll.enabled": false,
-
 }
+
 
 
  
