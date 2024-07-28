@@ -42,8 +42,8 @@
   "comments": "#31ec92b5", // Comment color
   "functions": "#01e2f6be", // Function color
   "keywords": "#c586c0db", // Keyword color (purple)
-  "numbers": "#d75dddb0", // Number color
-  "strings": "#94cdf5ee", // String color
+  "numbers": "#de942cc6", // Number color
+  "strings": "#42d7eba9", // String color
   "types": "#4687f9dc", // Type color
   "variables": "#e9e20ad3", // Variable color
 },
