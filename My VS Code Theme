@@ -1,59 +1,55 @@
 {
-    "window.zoomLevel": 1,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.linkedEditing": true,
-    "npm.keybindingsChangedWarningShown": true,
-    "tailwindCSS.experimental.classRegex": [
-    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ],
-  "window.commandCenter": false,
-  "explorer.confirmDelete": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "git.autofetch": true,
-  "json.schemaDownload.enable": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "json.validate.enable": false,
+  "window.zoomLevel": 1,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "npm.keybindingsChangedWarningShown": true,
+  "tailwindCSS.experimental.classRegex": [
+  ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+  ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+],
+"window.commandCenter": false,
+"explorer.confirmDelete": false,
+"editor.multiCursorModifier": "ctrlCmd",
+"javascript.updateImportsOnFileMove.enabled": "always",
+"git.autofetch": true,
+"json.schemaDownload.enable": true,
+"workbench.iconTheme": "material-icon-theme",
+"json.validate.enable": false,
 "diffEditor.ignoreTrimWhitespace": true,
 "workbench.colorCustomizations": {
-  "editor.background": "#6569601d",
-  "editor.foreground": "#35eb14",
-  "editor.selectionForeground": "#ffffff",
-  "editor.selectionBackground": "#4e4c7f", // Background color for selected text
-  "editor.lineHighlightBackground": "#2b2b2bb9", // Background color for the current line
-  "editorCursor.foreground": "#aeafad", // Cursor color
-  "editorWhitespace.foreground": "#3b3b3b", // Color for whitespace characters
-  "editorIndentGuide.background": "#404040", // Indentation guide color
-  "editorIndentGuide.activeBackground": "#707070", // Active indentation guide color
-  "editor.selectionHighlightBorder": "#535a60", // Border color for selected text
-  "editor.findMatchBackground": "#555555", // Background color for the find match
-  "editor.findMatchHighlightBackground": "#314659", // Background color for highlighted find matches
-  "editor.wordHighlightBackground": "#575757", // Background color for word highlights
-  "editor.wordHighlightStrongBackground": "#4f4f4f", // Background color for strong word highlights
-  "editorError.foreground": "#e45454", // Error color
-  "editorWarning.foreground": "#c37934", // Warning color
-  "editorInfo.foreground": "#75beff", // Info color
-  "editorHint.foreground": "#eeeeee", // Hint color
-  "activityBar.background": "#565a8249", // Activity bar background
-  "sideBar.background": "#456f8530", // Sidebar background
-  "terminal.background": "#000000",
-  "terminal.foreground": "#fbff00b5", // Example of changing the text color
- 
+"editor.background": "#5e5e5e09",
+"editor.foreground": "#35eb14",
+"editor.selectionForeground": "#ffffff",
+"editor.selectionBackground": "#4e4c7f", // Background color for selected text
+"editor.lineHighlightBackground": "#2b2b2bb9", // Background color for the current line
+"editorCursor.foreground": "#aeafad", // Cursor color
+"editorWhitespace.foreground": "#3b3b3b", // Color for whitespace characters
+"editorIndentGuide.background": "#404040", // Indentation guide color
+"editorIndentGuide.activeBackground": "#707070", // Active indentation guide color
+"editor.selectionHighlightBorder": "#535a60", // Border color for selected text
+"editor.findMatchBackground": "#555555", // Background color for the find match
+"editor.findMatchHighlightBackground": "#314659", // Background color for highlighted find matches
+"editor.wordHighlightBackground": "#575757", // Background color for word highlights
+"editor.wordHighlightStrongBackground": "#4f4f4f", // Background color for strong word highlights
+"editorError.foreground": "#e45454", // Error color
+"editorWarning.foreground": "#c37934", // Warning color
+"editorInfo.foreground": "#75beff", // Info color
+"editorHint.foreground": "#eeeeee", // Hint color
+"activityBar.background": "#161b4e49", // Activity bar background
+"sideBar.background": "#0c0c0c30", // Sidebar background
+"terminal.background": "#000000",
+"terminal.foreground": "#f0f4f5ec", // Example of changing the text color
+
 },
 "editor.tokenColorCustomizations": {
-  "comments": "#31ec92b5", // Comment color
-  "functions": "#01e2f6be", // Function color
-  "keywords": "#c586c0db", // Keyword color (purple)
-  "numbers": "#de942cc6", // Number color
-  "strings": "#42d7eba9", // String color
-  "types": "#4687f9dc", // Type color
-  "variables": "#e9e20ad3", // Variable color
+"comments": "#31ec92b5", // Comment color
+"functions": "#008a97f2", // Function color
+"keywords": "#edf908bd", // Keyword color (purple)
+"numbers": "#de942c8a", // Number color
+"strings": "#ffffffad", // String color
+"types": "#e96d1afe", // Type color
+"variables": "#0ad3e9d3", // Variable color
 },
 "workbench.colorTheme": "Default Dark+",
 "editor.stickyScroll.enabled": false,
 }
-
-
-
- 
