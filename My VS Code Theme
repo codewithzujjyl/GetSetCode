@@ -43,11 +43,11 @@
 },
 "editor.tokenColorCustomizations": {
 "comments": "#31ec92b5", // Comment color
-"functions": "#008a97f2", // Function color
+"functions": "#ec4f4fee", // Function color
 "keywords": "#edf908bd", // Keyword color (purple)
-"numbers": "#de942c8a", // Number color
-"strings": "#ffffffad", // String color
-"types": "#e96d1afe", // Type color
+"numbers": "#00dbf8e6", // Number color
+"strings": "#ffffffc7", // String color
+"types": "#ef6b12fe", // Type color
 "variables": "#0ad3e9d3", // Variable color
 },
 "workbench.colorTheme": "Default Dark+",
