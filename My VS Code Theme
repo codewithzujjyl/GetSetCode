@@ -43,7 +43,7 @@
 },
 "editor.tokenColorCustomizations": {
 "comments": "#31ec92b5", // Comment color
-"functions": "#c480f9ca", // Function color
+"functions": "#e18df1e7", // Function color
 "keywords": "#edf908bd", // Keyword color (purple)
 "numbers": "#00dbf8e6", // Number color
 "strings": "#ffffffc7", // String color
