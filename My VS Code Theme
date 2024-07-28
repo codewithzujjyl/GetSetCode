@@ -18,7 +18,7 @@
   "json.validate.enable": false,
 "diffEditor.ignoreTrimWhitespace": true,
 "workbench.colorCustomizations": {
-  "editor.background": "#2b2b2b",
+  "editor.background": "#24529808",
   "editor.foreground": "#cccccc",
   "editor.selectionBackground": "#444444",
   "editor.selectionForeground": "#ffffff",
@@ -39,13 +39,13 @@
   "editorHint.foreground": "#eeeeeec6" // Hint color
 },
 "editor.tokenColorCustomizations": {
-  "comments": "#ff8c00d3", // Comment color
-  "functions": "#47a0c3e7", // Function color
+  "comments": "#31ec92b5", // Comment color
+  "functions": "#01e2f6be", // Function color
   "keywords": "#c586c0db", // Keyword color (purple)
   "numbers": "#d75dddb0", // Number color
-  "strings": "#a5d3f3ca", // String color
-  "types": "#4ec9b0ac", // Type color
-  "variables": "#4fdb30d6", // Variable color
+  "strings": "#94cdf5ee", // String color
+  "types": "#4687f9dc", // Type color
+  "variables": "#e9e20ad3", // Variable color
 },
 "workbench.colorTheme": "Visual Studio Dark"
 }
