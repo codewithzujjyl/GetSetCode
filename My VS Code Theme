@@ -78,7 +78,7 @@
       "fontWeight": "bold"
     },
     {
-      "backgroundColor": "#ffcccc",  // Light red for text after FIXME:
+      "backgroundColor": "#ee4407cd",  // Light red for text after FIXME:
       "color": "#1f1f1f"
     }
   ],
@@ -90,7 +90,7 @@
       "fontWeight": "bold"
     },
     {
-      "backgroundColor": "#84ff02",  // Light yellow for text after TODO:
+      "backgroundColor": "#7ece29ce",  // Light yellow for text after TODO:
       "color": "#1f1f1f"
     }
   ],
@@ -103,4 +103,3 @@
 }
 
 }
-
