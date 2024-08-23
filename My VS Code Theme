@@ -50,8 +50,57 @@
 "types": "#fbda86fe", // Type color
 "variables": "#6fb4f9", // Variable color
 },
+
+
 "editor.stickyScroll.enabled": false,
 "editor.minimap.renderCharacters": false,
 "editor.minimap.enabled": false,
 "workbench.colorTheme": "One Monokai Darker",
+
+"highlight.regexes": {
+  "(// ?TODO:?)(.*)": [
+    {
+      "overviewRulerColor": "#ffcc00",
+      "backgroundColor": "#ffcc00",
+      "color": "#1f1f1f",
+      "fontWeight": "bold"
+    },
+    {
+      "backgroundColor": "#ffff99",  // Light yellow for text after TODO:
+      "color": "#1f1f1f"
+    }
+  ],
+  "(// ?FIXME:?)(.*)": [
+    {
+      "overviewRulerColor": "#ff0000",
+      "backgroundColor": "#ff0000",
+      "color": "#1f1f1f",
+      "fontWeight": "bold"
+    },
+    {
+      "backgroundColor": "#ffcccc",  // Light red for text after FIXME:
+      "color": "#1f1f1f"
+    }
+  ],
+  "(// ?Bug:?)(.*)": [
+    {
+      "overviewRulerColor": "#40ff00",
+      "backgroundColor": "#40ff00",
+      "color": "#1f1f1f",
+      "fontWeight": "bold"
+    },
+    {
+      "backgroundColor": "#84ff02",  // Light yellow for text after TODO:
+      "color": "#1f1f1f"
+    }
+  ],
+  "(// )(@\\w+)": [
+    {},
+    {
+      "color": "#4de0ff"
+    }
+  ]
 }
+
+}
+
