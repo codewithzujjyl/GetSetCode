@@ -4,102 +4,120 @@
   "editor.linkedEditing": true,
   "npm.keybindingsChangedWarningShown": true,
   "tailwindCSS.experimental.classRegex": [
-  ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-  ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-],
-"window.commandCenter": false,
-"explorer.confirmDelete": false,
-"editor.multiCursorModifier": "ctrlCmd",
-"javascript.updateImportsOnFileMove.enabled": "always",
-"git.autofetch": true,
-"json.schemaDownload.enable": true,
-"workbench.iconTheme": "material-icon-theme",
-"json.validate.enable": false,
-"diffEditor.ignoreTrimWhitespace": true,
-"workbench.colorCustomizations": {
-"editor.background": "#5e5e5e09",  // #202123 (chatgpt dark color) || #5e5e5e09 (myBestDarkColor)
-"editor.foreground": "#f9f1f1f7",
-"editor.selectionForeground": "#bb9e9e",
-"editor.selectionBackground": "#776ef5d1", // Background color for selected text
-"editor.lineHighlightBackground": "#2b2b2bb9", // Background color for the current line
-"editorCursor.foreground": "#aeafad", // Cursor color
-"editorWhitespace.foreground": "#f2f2f2", // Color for whitespace characters
-"editorIndentGuide.background": "#404040", // Indentation guide color
-"editorIndentGuide.activeBackground": "#707070", // Active indentation guide color
-"editor.selectionHighlightBorder": "#535a60", // Border color for selected text
-"editor.findMatchBackground": "#555555", // Background color for the find match
-"editor.findMatchHighlightBackground": "#314659", // Background color for highlighted find matches
-"editor.wordHighlightBackground": "#6bbfb855", // Background color for word highlights
-"editor.wordHighlightStrongBackground": "#4f4f4f", // Background color for strong word highlights
-"editorError.foreground": "#3fe1cb", // Error color
-"editorWarning.foreground": "#ec0d0d", // Warning color
-"editorInfo.foreground": "#75beff", // Info color
-"editorHint.foreground": "#eeeeee", // Hint color
-"activityBar.background": "#dbdf8d00", // Activity bar background
-"sideBar.background": "#181b179d", // Sidebar background
-"terminal.background": "#403e47",
-"terminal.foreground": "#f2f5f0ec", // Example of changing the text color
-
-},
-"editor.tokenColorCustomizations": {
-"comments": "#cfaefaef", // Comment color
-"functions": "#92dbc6e7", // Function color
-"keywords": "#f4ea8f", // Keyword color (purple)
-"numbers": "#00dbf8e6", // Number color
-"strings": "#ffffffca", // String color
-"types": "#fbda86fe", // Type color
-"variables": "#6fb4f9", // Variable color
-},
-
-
-"editor.stickyScroll.enabled": false,
-"editor.minimap.renderCharacters": false,
-"editor.minimap.enabled": false,
-"workbench.colorTheme": "One Monokai Darker",
-
-"highlight.regexes": {
-  "(// ?TODO:?)(.*)": [
-    {
-      "overviewRulerColor": "#ffcc00",
-      "backgroundColor": "#ffcc00",
-      "color": "#1f1f1f",
-      "fontWeight": "bold"
-    },
-    {
-      "backgroundColor": "#ffff99",  // Light yellow for text after TODO:
-      "color": "#1f1f1f"
-    }
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
-  "(// ?FIXME:?)(.*)": [
-    {
-      "overviewRulerColor": "#ff0000",
-      "backgroundColor": "#ff0000",
-      "color": "#1f1f1f",
-      "fontWeight": "bold"
-    },
-    {
-      "backgroundColor": "#ee4407cd",  // Light red for text after FIXME:
-      "color": "#1f1f1f"
-    }
-  ],
-  "(// ?Bug:?)(.*)": [
-    {
-      "overviewRulerColor": "#40ff00",
-      "backgroundColor": "#40ff00",
-      "color": "#1f1f1f",
-      "fontWeight": "bold"
-    },
-    {
-      "backgroundColor": "#7ece29ce",  // Light yellow for text after TODO:
-      "color": "#1f1f1f"
-    }
-  ],
-  "(// )(@\\w+)": [
-    {},
-    {
-      "color": "#4de0ff"
-    }
-  ]
-}
-
+  "window.commandCenter": false,
+  "explorer.confirmDelete": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "json.schemaDownload.enable": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "json.validate.enable": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#383838",
+    "editor.foreground": "#f9f1f1f7",
+    "editor.selectionForeground": "#bb9e9e",
+    "editor.selectionBackground": "#776ef5d1",
+    "editor.lineHighlightBackground": "#2b2b2bb9",
+    "editorCursor.foreground": "#aeafad",
+    "editorWhitespace.foreground": "#f2f2f2",
+    "editorIndentGuide.background": "#404040",
+    "editorIndentGuide.activeBackground": "#707070",
+    "editor.selectionHighlightBorder": "#abb3bb",
+    "editor.findMatchBackground": "#16ead57d",
+    "editor.findMatchBorder": "#00000000",
+    "editor.findMatchHighlightBackground": "#5e88ac",
+    "editor.wordHighlightBackground": "#929391ec",
+    "editor.wordHighlightStrongBackground": "#4f4f4f",
+    "editorError.foreground": "#05100f",
+    "editorWarning.foreground": "",
+    "editorInfo.foreground": "#75beff",
+    "editorHint.foreground": "#eeeeee",
+    "activityBar.background": "#3b3d3c",
+    "activityBar.foreground": "#f7ba00",
+    "activityBar.inactiveForeground": "#a0a4a2",
+    "activityBar.border": "#00eeff60",
+    "sideBar.background": "#3b3d3c",
+    "terminal.background": "#403e47", 
+    "terminal.foreground": "#f2f5f0ec",
+    "editorGroupHeader.tabsBackground": "#0b090917", // Background color of tabs section
+    "tab.activeBackground": "#5076c34c", // Active tab background color
+    "tab.inactiveBackground": "#59636279",  // Inactive tab background color
+    "tab.activeForeground": "#c0edf1",  // Active tab text color
+    "tab.inactiveForeground": "#949898",  // Inactive tab text color
+    "tab.hoverBackground": "#727985",    // Tab background color on hover
+    "tab.unfocusedActiveBackground": "#59636279"  // Background for unfocused active tab
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#cfaefaef",
+    "functions": "#92dbc6e7",
+    "keywords": "#f4ea8f",
+    "numbers": "#00dbf8e6",
+    "strings": "#ffffffca",
+    "types": "#ffd260d2",
+    "variables": "#6fb4f9"
+  },
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "One Monokai Darker",
+  "highlight.regexes": {
+    "(// ?TODO:?)(.*)": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#ffcc00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ffff99",
+        "color": "#1f1f1f"
+      }
+    ],
+    "(// ?FIXME:?)(.*)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "#ff0000",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#ee4407cd",
+        "color": "#1f1f1f"
+      }
+    ],
+    "(// ?Bug:?)(.*)": [
+      {
+        "overviewRulerColor": "#40ff00",
+        "backgroundColor": "#40ff00",
+        "color": "#1f1f1f",
+        "fontWeight": "bold"
+      },
+      {
+        "backgroundColor": "#7ece29ce",
+        "color": "#1f1f1f"
+      }
+    ],
+    "(// )(@\\w+)": [
+      {},
+      {
+        "color": "#4de0ff"
+      }
+    ]
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "terminal.integrated.env.windows": {},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
