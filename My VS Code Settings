@@ -37,7 +37,7 @@
     "editorInfo.foreground": "#75beff",
     "editorHint.foreground": "#eeeeee",
     "activityBar.background": "#3b3d3c",
-    "activityBar.foreground": "#f7ba00",
+    "activityBar.foreground": "#fcd602", // Icon color
     "activityBar.inactiveForeground": "#a0a4a2",
     "activityBar.border": "#00eeff60",
     "sideBar.background": "#3b3d3c",
