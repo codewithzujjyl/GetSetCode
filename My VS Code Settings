@@ -49,7 +49,11 @@
     "tab.activeForeground": "#c0edf1",  // Active tab text color
     "tab.inactiveForeground": "#949898",  // Inactive tab text color
     "tab.hoverBackground": "#727985",    // Tab background color on hover
-    "tab.unfocusedActiveBackground": "#59636279"  // Background for unfocused active tab
+    "tab.unfocusedActiveBackground": "#59636279",  // Background for unfocused active tab
+    "tab.border": "#5076c34c", // Change border color
+    "tab.activeBorder": "#deff0b", // Active tab border color
+    "tab.activeBorderTop": "#5076c34c", // Active tab top border
+
   },
   "editor.tokenColorCustomizations": {
     "comments": "#cfaefaef",
