@@ -1,0 +1,101 @@
+import React, { createContext, useContext, useEffect, useRef, useState } from "react";
+import { Client } from "@stomp/stompjs";
+import SockJS from "sockjs-client";
+
+const WebSocketContext = createContext(null);
+
+export const WebSocketConfigurer = ({ children }) => {
+  const clientRef = useRef(null);
+  const [connected, setConnected] = useState(false);
+
+  useEffect(() => {
+    // Create STOMP client with SockJS
+    const client = new Client({
+      webSocketFactory: () => new SockJS("http://localhost:8080/ws"), // 👈 Spring Boot endpoint
+      reconnectDelay: 5000,
+      heartbeatIncoming: 4000,
+      heartbeatOutgoing: 4000,
+      onConnect: () => {
+        console.log("✅ Connected to STOMP");
+        setConnected(true);
+      },
+      onStompError: (frame) => {
+        console.error("❌ STOMP error:", frame.headers["message"], frame.body);
+      },
+    });
+
+    client.activate();
+    clientRef.current = client;
+
+    return () => {
+      if (clientRef.current) {
+        clientRef.current.deactivate();
+        clientRef.current = null;
+      }
+    };
+  }, []);
+
+  const subscribe = (destination, callback) => {
+    if (clientRef.current && connected) {
+      return clientRef.current.subscribe(destination, callback);
+    }
+  };
+
+  const sendMessage = (destination, body) => {
+    if (clientRef.current && connected) {
+      clientRef.current.publish({
+        destination,
+        body: JSON.stringify(body),
+      });
+    }
+  };
+
+  return (
+    <WebSocketContext.Provider value={{ client: clientRef.current, connected, subscribe, sendMessage }}>
+      {children}
+    </WebSocketContext.Provider>
+  );
+};
+
+export const useWebSocket = () => useContext(WebSocketContext);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Here we wrap all the components into the top parent component WebSocketConfigurer.
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { WebSocketProvider } from "./WebSocketContext";
+
+ReactDOM.render(
+  <WebSocketConfigurer>
+    <App />
+  </WebSocketConfigurer>,
+  document.getElementById("root")
+);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//This way we can use that StompClient to subscribe, sendmessage/publish, etc.
+import React, { useEffect } from "react";
+import { useWebSocket } from "./WebSocketContext";
+
+function ChatRoom() {
+  const { subscribe, sendMessage } = useWebSocket();
+
+  useEffect(() => {
+    const sub = subscribe("/user/queue/messages", (msg) => {
+      const body = JSON.parse(msg.body);
+      console.log("📩 New private message:", body);
+    });
+
+    return () => sub && sub.unsubscribe();
+  }, [subscribe]);
+
+  const handleSend = () => {
+    sendMessage("/app/chat.private", { receiver: "B", text: "Hello B!" });
+  };
+
+  return <button onClick={handleSend}>Send Private Message</button>;
+}
+
+export default ChatRoom;
